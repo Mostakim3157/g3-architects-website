@@ -99,6 +99,7 @@ main {
   align-items: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  position: relative;
 }
 
 .teams-img-list {
@@ -143,6 +144,87 @@ main {
   padding: 20px 0px;
 }
 
+/* features section starts */
+
+.features-section {
+  display: flex;
+}
+.features-section-1 {
+  margin-left: 150px;
+  margin-right: 80px;
+}
+.features-section-1-head {
+  color: var(--Dark-01, #131313);
+  font-size: 2.813rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.features-section-1-discribtion {
+  color: var(--Dark-03, #727272);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.features-section-cart {
+  margin-left: 30px;
+  margin-bottom: 45px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+
+.features-section-cart-head {
+  color: var(--Dark-01, #131313);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.features-section-cart-p {
+  color: var(--Dark-03, #727272);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.features-section-2-img {
+  width: 708px;
+  height: 982px;
+  margin-right: 100px;
+}
+
+.features-section-experience {
+  border-radius: 8px;
+  background: #ff900e;
+  width: 342px;
+  height: 200px;
+  position: absolute;
+  margin-left: 577px;
+  margin-top: -242px;
+  
+  
+}
+
+.features-section-experience-h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 4.063rem;
+  font-weight: 700;
+  line-height: 70px;
+  padding-top: 40px;
+}
+
+.features-section-experience-p {
+  color: #ffffff;
+  font-size: 1.563rem;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+
 /* responsive starts */
 
 @media screen and (max-width: 576px) {
@@ -182,9 +264,6 @@ main {
   }
 }
 
-
-
-
 /* Tablet starts */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   nav {
@@ -214,5 +293,3 @@ main {
     margin: 60px 140px;
   }
 }
-
-
