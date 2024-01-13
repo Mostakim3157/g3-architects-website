@@ -204,8 +204,6 @@ main {
   position: absolute;
   margin-left: 577px;
   margin-top: -242px;
-  
-  
 }
 
 .features-section-experience-h2 {
@@ -224,6 +222,64 @@ main {
   line-height: 40px;
   text-align: center;
 }
+
+/* some facts starts */
+.some-facts{
+    margin: 100px;
+}
+
+.some-facts-h3 {
+  color: var(--Dark-01, #131313);
+  font-size: 2.813rem;
+  font-weight: 700;
+  padding: 10px 0px 10px 40px;
+}
+
+.some-facts-p {
+  color: var(--Dark-03, #727272);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 10px 0px 80px 40px;
+}
+.achivement-p {
+  color: var(--Dark-03, #727272);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.achivement-h3 {
+  color: var(--Dark-02, #424242);
+  font-size: 2.813rem;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.achivement-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.achivement {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive starts */
 
@@ -262,7 +318,42 @@ main {
   .teams-text {
     margin: 60px;
   }
+
+  /* features starts */
+  .features-section {
+    flex-direction: column;
+  }
+
+  .features-section-1 {
+    margin: 20px;
+  }
+  .features-section-2-img {
+    width: 70%;
+    height: 70%;
+    margin-left: 60px;
+  }
+
+  .features-section-experience {
+    margin-left: 38px;
+    margin-top: 37px;
+    position: relative;
+  }
+  /* achivement starts */
+  .achivement-container{
+    flex-direction: column;
 }
+
+.achivement{
+    margin-top: 30px;
+}
+
+}
+
+
+
+
+
+
 
 /* Tablet starts */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -292,4 +383,47 @@ main {
   .teams-text {
     margin: 60px 140px;
   }
+  /* features starts */
+  .features-section {
+    flex-direction: column;
+  }
+  .features-section-1-head, 
+  .features-section-1-discribtion{
+    margin-left: 30px;
+  }
+  .features-section-1 {
+    margin: 0px;
+    
+
+  }
+  .features-section-2-img {
+    width: 70%;
+    height: 70%;
+    margin: 60px ;
+  }
+  
+  .features-section-experience {
+    margin-left: 240px;
+    margin-top: 1px;
+    position: relative;
+  }
+/* achivement starts */
+.achivement-container{
+    flex-direction: column;
+}
+
+.achivement{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
