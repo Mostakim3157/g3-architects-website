@@ -15,14 +15,13 @@
   border: none;
   background: #ff900e;
   cursor: pointer;
-  
 }
 
-.btn-primary:hover{
-    background-color: #fff;
-    color: #ff900e;
-    border: 2PX solid #ff900e;
-    transition: .5s;
+.btn-primary:hover {
+  background-color: #fff;
+  color: #ff900e;
+  border: 2px solid #ff900e;
+  transition: 0.5s;
 }
 
 /* header starts */
@@ -44,7 +43,6 @@ nav {
   color: var(--Dark-01, #131313);
   font-size: 2.8rem;
   font-weight: 700;
-  
 }
 
 nav > ul {
@@ -89,10 +87,73 @@ nav li a {
   margin: 50px 0px 40px 0px;
 }
 
+
+
+/* mian starts */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* teams starts */
+.teams-container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.teams-img-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:24px;
+    margin-left: 150px;
+}
+
+.teams-img-list img{
+width: 100%;
+height: 100%;
+width: 250px;
+
+}
+
+
+
+.teams-text {
+    margin-left: 80px;
+    margin-right: 150px;
+}
+.quick {
+  color: var(--Dark-03, #727272);
+  font-size: 2.813rem;
+  font-weight: 500;
+}
+
+.our {
+  color: var(--Dark-01, #131313);
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+.team-features {
+  color: #ff900e;
+  font-size: 2.813rem;
+  font-weight: 700;
+}
+
+.teams-text-discription{
+    color: var(--Dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px;
+}
+
+
+
 /* responsive starts */
 
 @media screen and (max-width: 576px) {
-  header{
+  header {
     padding: 30px;
   }
 
@@ -101,7 +162,7 @@ nav li a {
     padding: 20px;
   }
 
-  nav>ul li{
+  nav > ul li {
     padding-top: 20px;
   }
 
@@ -110,21 +171,16 @@ nav li a {
     padding-bottom: 20px;
     margin-top: 20px;
   }
-
-
-
 }
 
-
 /* Tablet starts */
-@media screen and (min-width:576px) and (max-width:992px) {
-
-    nav {
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
     flex-direction: column;
     padding: 20px;
   }
 
-  header{
+  header {
     padding: 30px;
   }
 
